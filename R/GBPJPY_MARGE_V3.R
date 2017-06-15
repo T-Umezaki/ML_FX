@@ -6,7 +6,7 @@ getwd()                     # 現在の作業ディレクトリを確認する# 
 
 table_all <- data.frame()
 
-# 読み込んだcsvをマージする
+# 読み込んだcsvをマージする#
 table_ashi15 <- read.table("GBPJPY15.csv", header=F, sep=",")
 table_ashi60 <- read.table("GBPJPY60.csv", header=F, sep=",")
 table_ashi1440 <- read.table("GBPJPY1440.csv", header=F, sep=",")
